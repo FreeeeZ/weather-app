@@ -1,7 +1,7 @@
-# Vite + React + TypeScript template
+# Weather app
 
 ## Description
-This repository includes Vite, React, TypeScript as main deps for starting new projects
+Just simple weather app
 
 ## Main deps
 ![vite](https://img.shields.io/badge/vite-v4.1.0-red?style=flat-square)
@@ -14,6 +14,6 @@ This repository includes Vite, React, TypeScript as main deps for starting new p
 3. Open up [http://localhost:3000](http://localhost:3000)
 
 ## License
-[MIT](https://github.com/FreeeeZ/vite-react-typescript-template/blob/main/LICENSE)
+[MIT](https://github.com/FreeeeZ/weather-app/blob/main/LICENSE)
 
 Copyright (c) 2023, Vladislav Shell

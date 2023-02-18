@@ -1,10 +1,10 @@
 {
-  "name": "vite-react-typescript-template",
+  "name": "weather-app",
   "version": "1.0.0",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git@github.com:FreeeeZ/vite-react-typescript-template.git"
+    "url": "git@github.com:FreeeeZ/weather-app.git"
   },
   "license": "MIT",
   "author": "Vladislav Shell",
