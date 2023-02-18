@@ -1,4 +1,4 @@
-import React, { useState, type ReactElement, type FC } from 'react'
+import React, { type ReactElement, type FC } from 'react'
 
 import reactLogo from '@/assets/images/react.svg'
 import typeScriptLogo from '@/assets/images/typescript.svg'
@@ -6,11 +6,6 @@ import typeScriptLogo from '@/assets/images/typescript.svg'
 import './App.scss'
 
 export const App: FC = (): ReactElement => {
-  const [count, setCount] = useState(0)
-
-  const incrementCount = (): void => {
-    setCount((count) => count + 1)
-  }
 
   return (
     <div className="App">
@@ -31,9 +26,6 @@ export const App: FC = (): ReactElement => {
         Vite + React + TypeScript
       </h1>
       <div className="card">
-        <button onClick={incrementCount}>
-          count is {count}
-        </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
