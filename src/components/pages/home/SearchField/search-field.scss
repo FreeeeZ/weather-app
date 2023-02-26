@@ -1,0 +1,39 @@
+.search-field {
+  padding: 10px;
+  border-radius: 10px;
+  background: #2d84be;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 70px;
+  grid-column-gap: 15px;
+
+  &__field {
+    background: transparent;
+    border: none;
+    padding: 10px;
+    color: #ffffff;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: #ffffff;
+    }
+  }
+
+  &__button {
+    border: none;
+    padding: 10px;
+    color: #ffffff;
+    width: 100%;
+    background: #088ee8;
+    transition: 0.3s all;
+    border-radius: 10px;
+
+    &:hover {
+      cursor: pointer;
+      background: #066db2;
+    }
+  }
+}
